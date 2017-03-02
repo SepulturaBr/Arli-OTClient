@@ -1,0 +1,330 @@
+== application crashed
+app name: OTClient
+app version: 0.6.2
+build compiler: gcc 4.7.2
+build date: Apr 15 2013
+build type: Release
+build revision: 0 (devel)
+crash date: May 29 2013 11:11:32
+exception: Access violation (0xc0000005)
+exception address: 0x10530e12
+  backtrace:
+    0: C:\Windows\system32\ig4icd32.dll(ShCompile+0xe08f2) [0x10530E12]
+    1: C:\Windows\system32\ig4icd32.dll(ShCompile+0xe0c52) [0x10531172]
+    2: C:\Windows\system32\ig4icd32.dll(ShCompile+0xce654) [0x1051EB74]
+    3: C:\Windows\system32\ig4icd32.dll [0x1006E04A]
+    4: C:\Users\Paulo\Desktop\ServerMysterion v1.6\ServerMysterion - v1.7\OtClient 6.3\otclient.exe [0x00431495]
+    5: C:\Windows\system32\ig4icd32.dll [0x1029512C]
+    6: C:\Users\Paulo\Desktop\ServerMysterion v1.6\ServerMysterion - v1.7\OtClient 6.3\otclient.exe [0x0043129A]
+    7: C:\Windows\system32\ig4icd32.dll [0x1006E3A4]
+
+== application crashed
+app name: OTClient
+app version: 0.6.2
+build compiler: gcc 4.7.2
+build date: May 19 2013
+build type: Release
+build revision: 0 (devel)
+crash date: Aug 30 2013 22:04:00
+exception: Access violation (0xc0000005)
+exception address: 0x00428b9d
+  backtrace:
+    0: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe [0x00428B9D]
+    1: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe [0x00429AB1]
+    2: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe [0x00429E0F]
+    3: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe [0x00429EDC]
+    4: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe [0x00427B76]
+    5: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe [0x00427C2C]
+    6: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe [0x0043D88E]
+    7: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe(wglewIsSupported+0xde31f) [0x006F848F]
+    8: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe(wglewIsSupported+0x685fd) [0x0068276D]
+    9: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe(wglewIsSupported+0xe64a5) [0x00700615]
+    10: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe [0x004248F5]
+    11: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe(alGetListeneriv+0x322ab) [0x004FBBEB]
+    12: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe(alGetListeneriv+0x34244) [0x004FDB84]
+    13: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe(alGetListeneriv+0x31652) [0x004FAF92]
+    14: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe(alGetListeneriv+0x35252) [0x004FEB92]
+    15: C:\Windows\SysWOW64\ntdll.dll(RtlAllocateHeap+0xac) [0x76F1E0F2]
+    16: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe(alGetListeneriv+0x31408) [0x004FAD48]
+    17: C:\Windows\SysWOW64\ntdll.dll(RtlFreeHeap+0x7e) [0x76F1E023]
+    18: C:\Windows\syswow64\msvcrt.dll(free+0x46) [0x74A998DA]
+    19: C:\Windows\syswow64\msvcrt.dll(malloc+0x57) [0x74A99D45]
+    20: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe(alGetListeneriv+0x32730) [0x004FC070]
+    21: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe(alGetListeneriv+0x2c0c0) [0x004F5A00]
+    22: C:\Windows\syswow64\msvcrt.dll(realloc+0x6d) [0x74A9B17A]
+    23: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe(alGetListeneriv+0x319bd) [0x004FB2FD]
+    24: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe(alGetListeneriv+0x328a1) [0x004FC1E1]
+    25: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe(alGetListeneriv+0x31399) [0x004FACD9]
+    26: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe [0x00422A55]
+    27: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe [0x00423E2F]
+    28: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe [0x0041F0E4]
+    29: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe [0x0041F229]
+    30: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe [0x0042003F]
+    31: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe(wglewIsSupported+0xfcb29) [0x00716C99]
+    32: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe(wglewIsSupported+0xf2f6c) [0x0070D0DC]
+    33: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe [0x004248F5]
+    34: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe(alGetListeneriv+0x322ab) [0x004FBBEB]
+    35: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe(alGetListeneriv+0x34244) [0x004FDB84]
+    36: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe(alGetListeneriv+0x35252) [0x004FEB92]
+    37: C:\Windows\SysWOW64\ntdll.dll(RtlAllocateHeap+0xac) [0x76F1E0F2]
+    38: C:\Windows\SysWOW64\ntdll.dll(RtlImageNtHeader+0x73a) [0x76F238CE]
+    39: C:\Windows\SysWOW64\ntdll.dll(RtlImageNtHeader+0x716) [0x76F238AA]
+    40: C:\Windows\syswow64\msvcrt.dll(free+0x46) [0x74A998DA]
+
+== application crashed
+app name: OTClient
+app version: 0.6.2
+build compiler: gcc 4.7.2
+build date: May 19 2013
+build type: Release
+build revision: 0 (devel)
+crash date: Aug 30 2013 22:04:09
+exception: Access violation (0xc0000005)
+exception address: 0x00428b9d
+  backtrace:
+    0: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe [0x00428B9D]
+    1: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe [0x00429AB1]
+    2: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe [0x00429E0F]
+    3: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe [0x00429EDC]
+    4: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe [0x00427B76]
+    5: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe [0x00427C2C]
+    6: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe [0x0043D88E]
+    7: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe(wglewIsSupported+0xde31f) [0x006F848F]
+    8: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe(wglewIsSupported+0x685fd) [0x0068276D]
+    9: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe(wglewIsSupported+0xe64a5) [0x00700615]
+    10: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe [0x004248F5]
+    11: C:\Users\Danilo\Desktop\Poke xLight\Client Pokemon Master 5.1\Client Pokemon Master 5.1\otclient.exe(alGetListeneriv+0x322ab) [0x004FBBEB]
+
+== application crashed
+app name: OTClient
+app version: 0.6.2
+build compiler: gcc 4.7.2
+build date: May 19 2013
+build type: Release
+build revision: 0 (devel)
+crash date: Mar 10 2014 00:25:10
+exception: Access violation (0xc0000005)
+exception address: 0x02b289d2
+  backtrace:
+    0: C:\Windows\system32\ig4icd32.dll(ShCompile+0xe0a92) [0x02B289D2]
+    1: C:\Windows\system32\ig4icd32.dll(ShCompile+0xe0df2) [0x02B28D32]
+    2: C:\Windows\system32\ig4icd32.dll(ShCompile+0xce7d4) [0x02B16714]
+    3: C:\Windows\system32\ig4icd32.dll [0x026211FA]
+    4: C:\Windows\system32\ig4icd32.dll [0x02621554]
+
+== application crashed
+app name: OTClient
+app version: 0.6.2
+build compiler: gcc 4.7.2
+build date: May 19 2013
+build type: Release
+build revision: 0 (devel)
+crash date: Mar 10 2014 15:53:26
+exception: Access violation (0xc0000005)
+exception address: 0x02c189d2
+  backtrace:
+    0: C:\Windows\system32\ig4icd32.dll(ShCompile+0xe0a92) [0x02C189D2]
+    1: Unknown [0x0031AE28]
+    2: Unknown [0x002BC458]
+    3: Unknown [0x039D1318]
+    4: Unknown [0x039D0630]
+    5: Unknown [0x039D05B8]
+    6: C:\Windows\system32\ig4icd32.dll(ShCompile+0x4ab4e4) [0x02FE3424]
+
+== application crashed
+app name: PSFClient
+app version: 0.6.2
+build compiler: gcc 4.7.2
+build date: Jul  8 2013
+build type: Release
+build revision: 0 (devel)
+crash date: Mar 10 2014 19:26:55
+exception: Access violation (0xc0000005)
+exception address: 0x02b789d2
+  backtrace:
+    0: C:\Windows\system32\ig4icd32.dll(ShCompile+0xe0a92) [0x02B789D2]
+    1: C:\Windows\system32\ig4icd32.dll(ShCompile+0xe0df2) [0x02B78D32]
+    2: C:\Windows\system32\ig4icd32.dll(ShCompile+0xce7d4) [0x02B66714]
+    3: C:\Windows\system32\ig4icd32.dll [0x026711FA]
+    4: C:\Windows\system32\ig4icd32.dll [0x02671554]
+
+== application crashed
+app name: PSFClient
+app version: 0.6.2
+build compiler: gcc 4.7.2
+build date: Jul  8 2013
+build type: Release
+build revision: 0 (devel)
+crash date: Mar 10 2014 23:13:18
+exception: Access violation (0xc0000005)
+exception address: 0x02b289d2
+  backtrace:
+    0: C:\Windows\system32\ig4icd32.dll(ShCompile+0xe0a92) [0x02B289D2]
+    1: Unknown [0x0038AEA8]
+    2: Unknown [0x0032B4D0]
+    3: Unknown [0x03971388]
+    4: Unknown [0x039706A0]
+    5: Unknown [0x03970628]
+    6: C:\Windows\system32\ig4icd32.dll(ShCompile+0x4ab4e4) [0x02EF3424]
+
+== application crashed
+app name: PSFClient
+app version: 0.6.2
+build compiler: gcc 4.7.2
+build date: Jul  8 2013
+build type: Release
+build revision: 0 (devel)
+crash date: Mar 10 2014 23:14:03
+exception: Access violation (0xc0000005)
+exception address: 0x02b889d2
+  backtrace:
+    0: C:\Windows\system32\ig4icd32.dll(ShCompile+0xe0a92) [0x02B889D2]
+    1: Unknown [0x0037AEA8]
+    2: Unknown [0x0031B4D0]
+    3: Unknown [0x03A41388]
+    4: Unknown [0x03A406A0]
+    5: Unknown [0x03A40628]
+    6: C:\Windows\system32\ig4icd32.dll(ShCompile+0x4ab4e4) [0x02F53424]
+
+== application crashed
+app name: PSFClient
+app version: 0.6.2
+build compiler: gcc 4.7.2
+build date: Jul  8 2013
+build type: Release
+build revision: 0 (devel)
+crash date: Mar 10 2014 23:27:55
+exception: Access violation (0xc0000005)
+exception address: 0x02d189d2
+  backtrace:
+    0: C:\Windows\system32\ig4icd32.dll(ShCompile+0xe0a92) [0x02D189D2]
+    1: Unknown [0x0032AEA8]
+    2: Unknown [0x002C8D28]
+    3: Unknown [0x03AD1340]
+    4: Unknown [0x03AD0A58]
+    5: Unknown [0x03AD09E0]
+    6: C:\Windows\system32\ig4icd32.dll(ShCompile+0x4ab4e4) [0x030E3424]
+
+== application crashed
+app name: PSFClient
+app version: 0.6.2
+build compiler: gcc 4.7.2
+build date: Jul  8 2013
+build type: Release
+build revision: 0 (devel)
+crash date: Mar 11 2014 16:20:04
+exception: Access violation (0xc0000005)
+exception address: 0x02b389d2
+  backtrace:
+    0: C:\Windows\system32\ig4icd32.dll(ShCompile+0xe0a92) [0x02B389D2]
+    1: C:\Windows\system32\ig4icd32.dll(ShCompile+0xe0df2) [0x02B38D32]
+    2: C:\Windows\system32\ig4icd32.dll(ShCompile+0xce7d4) [0x02B26714]
+    3: C:\Windows\system32\ig4icd32.dll [0x026311FA]
+    4: C:\Windows\system32\ig4icd32.dll [0x02631554]
+
+== application crashed
+app name: PSFClient
+app version: 0.6.2
+build compiler: gcc 4.7.2
+build date: Jul  8 2013
+build type: Release
+build revision: 0 (devel)
+crash date: Mar 11 2014 17:13:01
+exception: Access violation (0xc0000005)
+exception address: 0x02b889d2
+  backtrace:
+    0: C:\Windows\system32\ig4icd32.dll(ShCompile+0xe0a92) [0x02B889D2]
+    1: C:\Windows\system32\ig4icd32.dll(ShCompile+0xe0df2) [0x02B88D32]
+    2: C:\Windows\system32\ig4icd32.dll(ShCompile+0xce7d4) [0x02B76714]
+    3: C:\Windows\system32\ig4icd32.dll [0x026811FA]
+    4: C:\Windows\system32\ig4icd32.dll [0x02681554]
+
+== application crashed
+app name: PSFClient
+app version: 0.6.2
+build compiler: gcc 4.7.2
+build date: Jul  8 2013
+build type: Release
+build revision: 0 (devel)
+crash date: Mar 11 2014 21:44:15
+exception: Access violation (0xc0000005)
+exception address: 0x02b189d2
+  backtrace:
+    0: C:\Windows\system32\ig4icd32.dll(ShCompile+0xe0a92) [0x02B189D2]
+    1: C:\Windows\system32\ig4icd32.dll(ShCompile+0xe0df2) [0x02B18D32]
+    2: C:\Windows\system32\ig4icd32.dll(ShCompile+0xce7d4) [0x02B06714]
+    3: C:\Windows\system32\ig4icd32.dll [0x026111FA]
+    4: C:\Windows\system32\ig4icd32.dll [0x02611554]
+
+== application crashed
+app name: PSFClient
+app version: 0.6.2
+build compiler: gcc 4.7.2
+build date: Jul  8 2013
+build type: Release
+build revision: 0 (devel)
+crash date: Mar 11 2014 22:42:50
+exception: Access violation (0xc0000005)
+exception address: 0x02ba89d2
+  backtrace:
+    0: C:\Windows\system32\ig4icd32.dll(ShCompile+0xe0a92) [0x02BA89D2]
+    1: C:\Windows\system32\ig4icd32.dll(ShCompile+0xe0df2) [0x02BA8D32]
+    2: C:\Windows\system32\ig4icd32.dll(ShCompile+0xce7d4) [0x02B96714]
+    3: C:\Windows\system32\ig4icd32.dll [0x026A11FA]
+    4: C:\Windows\system32\ig4icd32.dll [0x026A1554]
+
+== application crashed
+app name: PSFClient
+app version: 0.6.2
+build compiler: gcc 4.7.2
+build date: Jul  8 2013
+build type: Release
+build revision: 0 (devel)
+crash date: Mar 11 2014 23:00:57
+exception: Access violation (0xc0000005)
+exception address: 0x02ad89d2
+  backtrace:
+    0: C:\Windows\system32\ig4icd32.dll(ShCompile+0xe0a92) [0x02AD89D2]
+    1: C:\Windows\system32\ig4icd32.dll(ShCompile+0xe0df2) [0x02AD8D32]
+    2: C:\Windows\system32\ig4icd32.dll(ShCompile+0xce7d4) [0x02AC6714]
+    3: C:\Windows\system32\ig4icd32.dll [0x025D11FA]
+    4: C:\Windows\system32\ig4icd32.dll [0x025D1554]
+
+== application crashed
+app name: PSFClient
+app version: 0.6.2
+build compiler: gcc 4.7.2
+build date: Jul  8 2013
+build type: Release
+build revision: 0 (devel)
+crash date: Mar 11 2014 23:00:57
+exception: Access violation (0xc0000005)
+exception address: 0x02b989d2
+  backtrace:
+    0: C:\Windows\system32\ig4icd32.dll(ShCompile+0xe0a92) [0x02B989D2]
+    1: Unknown [0x0038AEA8]
+    2: Unknown [0x0032B4D0]
+    3: Unknown [0x03151388]
+    4: Unknown [0x031506A0]
+    5: Unknown [0x03150628]
+    6: C:\Windows\system32\ig4icd32.dll(ShCompile+0x4ab4e4) [0x02F63424]
+
+== application crashed
+app name: PSFClient
+app version: 0.6.2
+build compiler: gcc 4.7.2
+build date: Jul  8 2013
+build type: Release
+build revision: 0 (devel)
+crash date: Mar 12 2014 16:02:42
+exception: Access violation (0xc0000005)
+exception address: 0x028789d2
+  backtrace:
+    0: C:\Windows\system32\ig4icd32.dll(ShCompile+0xe0a92) [0x028789D2]
+    1: Unknown [0x0033AEA8]
+    2: Unknown [0x002DAB28]
+    3: Unknown [0x036313A0]
+    4: Unknown [0x036306B8]
+    5: Unknown [0x03630640]
+    6: C:\Windows\system32\ig4icd32.dll(ShCompile+0x4ab4e4) [0x02C43424]
+

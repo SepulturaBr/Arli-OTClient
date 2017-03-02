@@ -1,0 +1,17 @@
+Module
+  name: CatcherWindow
+  description: Catcher Window
+  author: Wend
+  website: www.tibiaking.com
+
+  autoload: true
+  autoload-priority: 1000
+
+  scripts:
+    - catcherWindow.lua
+
+  dependencies:
+    - game_interface
+
+  @onLoad: init()
+  @onUnload: terminate()

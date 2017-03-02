@@ -1,0 +1,13 @@
+Module
+  name: resize
+  description: Resize Tela
+  author: Jeffe
+  website: none
+
+  autoload: true
+  autoload-priority: 1000
+
+  scripts: [ resize ]
+  sandboxed: true
+  @onLoad: init()
+  @onUnload: terminate()

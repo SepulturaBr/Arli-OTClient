@@ -1,0 +1,132 @@
+MainWindow
+  id: CatcherWindow
+  !text: tr('Parabéns!')
+  size: 180 310
+  &save: true
+  @onEnter: CatcherWindowHide()
+  @onEscape: CatcherWindowHide()
+
+  Button
+    id: ok
+    !text: tr('OK')
+    width: 100
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.bottom: parent.bottom
+    @onClick: CatcherWindowHide()
+
+  Item
+    id: ImagePortrait
+    anchors.top: parent.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-top: -2
+
+  Label
+    id: PokeName
+    !text: tr("-")
+    text-auto-resize: true
+    anchors.top: parent.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-top: 35
+
+  Label
+    id: TotalBalls
+    !text: tr("-")
+    anchors.horizontalCenter: parent.horizontalCenter
+    text-auto-resize: true
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 225
+    margin-left: 5
+
+  Label
+    id: Experience
+    !text: tr("-")
+    text-auto-resize: true
+    anchors.top: parent.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-top: 50
+
+  UIImageView
+    id: PokeBalls
+    image-source: /mods/catcherWindow/images/pb.png
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 65
+    margin-left: 15
+
+  UIImageView
+    id: GreatBalls
+    image-source: /mods/catcherWindow/images/gb.png
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 95
+    margin-left: 15
+
+  UIImageView
+    id: SuperBalls
+    image-source: /mods/catcherWindow/images/sb.png
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 125
+    margin-left: 15
+    
+  UIImageView
+    id: UltraBalls
+    image-source: /mods/catcherWindow/images/ub.png
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 155
+    margin-left: 15   
+
+  UIImageView
+    id: SaffariBalls
+    image-source: /mods/catcherWindow/images/sf.png
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 185
+    margin-left: 15
+
+  Label
+    id: CountPB
+    !text: tr("-")
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 75
+    margin-left: 45
+    text-auto-resize: true
+
+  Label
+    id: CountGB
+    !text: tr("-")
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 105
+    margin-left: 45
+    text-auto-resize: true
+
+  Label
+    id: CountSB
+    !text: tr("-")
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 135
+    margin-left: 45
+    text-auto-resize: true
+    
+  Label
+    id: CountUB
+    !text: tr("-")
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 165
+    margin-left: 45
+    text-auto-resize: true
+
+  Label
+    id: CountSF
+    !text: tr("-")
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 195
+    margin-left: 45
+    text-auto-resize: true   
